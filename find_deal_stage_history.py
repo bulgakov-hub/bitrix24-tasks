@@ -42,7 +42,7 @@ for id_stage, code in search_stage.items():
         {
             'ID': d,
             'fields': {
-                'UF_CRM_1663141433': code
+                sto_field_choice : code
             }
         }
         for d in uniq_id
