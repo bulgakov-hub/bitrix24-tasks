@@ -5,7 +5,7 @@
 
 from fast_bitrix24 import Bitrix
 
-webhook = "https://ercs.bitrix24.ru/rest/{your code bitrix}"
+webhook = "https://{ domen bitrix }/rest/{your code bitrix}"
 b = Bitrix(webhook)
 
 deals = b.get_all(
