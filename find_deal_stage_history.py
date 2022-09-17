@@ -21,7 +21,7 @@ search_stage = {'UC_UY6WWI': "1178",    # ID_STAGE (СТО-Тамара) / ID se
                 'UC_EUIE0O': "1180",    # ID_STAGE (СТО-Александра) / ID select field
                 'UC_0V202Y': "1182"}    # ID_STAGE (СТО-Анастасия) / ID select field
 
-for id_stage, code in search_stage:
+for id_stage, code in search_stage.items():
     
     history = b.get_by_ID(
         method='crm.stagehistory.list',
